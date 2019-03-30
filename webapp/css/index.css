@@ -1,0 +1,269 @@
+
+ @font-face {
+    font-family: "number font";
+    src: url(../build_files/12fc1608.UnidreamLED.ttf);
+} 
+#onePoint {
+    font-size: 12px;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    background: #f3f3f3;
+}
+
+#onePoint .point_header {
+    height: 0.52rem;
+    line-height:0.64rem;
+    text-align: center;
+    background: #097be1;
+    width: 100%;
+    position: relative;
+}
+
+#onePoint .point_card {
+    overflow: hidden;
+    width: 15.88rem;
+    margin: 0 auto;
+}
+
+#onePoint .point_card>div {
+    float: left;
+}
+
+#onePoint .point_header img.point_title {
+    display: block;
+    height: 0.32rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#onePoint .chart_card.big {
+    width: 4.48rem;
+    float: left;
+    background: url(../build_files/2120603a.juxing.png) center center no-repeat;
+    background-size: cover;
+} 
+#onePoint .point_card div:nth-child(4) .chart_card{border-radius: 0;  }
+#onePoint .point_card div:nth-child(3) .chart_card{border-top-right-radius:0;border-bottom-right-radius: 0 }
+#onePoint .point_card div:nth-child(6) .chart_card{border-top-left-radius: 0;border-bottom-left-radius: 0;   }
+#onePoint .point_card div:nth-child(5) .chart_card{border-radius:0;   }
+#onePoint .chart_card.normal{margin-left:0;margin-right:0;  } 
+
+#onePoint .chart_card.normal .text_ul {width:1.2rem; margin:0 auto;margin-top:0.15rem;   }
+#onePoint .chart_card.normal .text_ul li{width:1.2rem;  } 
+#onePoint .chart_card {
+    width: 1.67rem;
+    height: 1.9rem;
+    margin: 0.049rem;
+    margin-bottom:0;
+    padding: 0.2rem;
+    float: left;
+   /*  background: url("../image/juxing.png") center center no-repeat;
+    background-size: cover; */
+    background:#3cb1eb;
+     border-radius: 5px; 
+    color: #ffffff;
+}
+
+#onePoint .chart_card .card_title {
+    height: 0.22rem;
+    line-height: 0.22rem;
+    font-size: 0.14rem;
+}
+
+#onePoint .chart_card .text_ul {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.15rem;
+}
+
+#onePoint .chart_card .text_ul li {
+    width: 1rem;
+    height: 1.2rem;
+    text-align: center;
+    float: left;
+    color:#ffffff;
+}
+
+#onePoint .chart_card.normal .text_ul li .text{width:0.8rem;margin:0 auto; text-align:center;margin-top:0.1rem;   } 
+
+#onePoint .chart_card .text_ul.half li {
+    width: 2.03rem
+}
+#onePoint .chart_card .text_ul.half li .number{
+ width:2.03rem;
+   }
+/* #onePoint .chart_card.normal .text_ul li .number{
+    width:1.2rem;
+    margin-left:-0.1rem;
+   
+      } */
+#onePoint .chart_card.normal .text_ul li .number{width:1.2rem; }
+#onePoint .chart_card .text_ul li .number {
+  
+    width:1rem;
+    margin:0 auto;
+    margin-top: 0.1rem;
+    overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+   font-family: "number font";
+    font-size:0.36rem;
+}
+#onePoint .chart_card .text_ul li .unit{font-size:0.2rem;margin-left:5px;font-family: "number font";  }
+
+#onePoint .chart_card .text_ul li .text {
+    font-size: 0.14rem;
+    margin-top: 0.1rem;
+}
+
+#onePoint .point_line,
+.point_bar {
+    width: 15.72rem;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin: 0 auto;
+    margin-top: 0.35rem;
+    min-height: 2.8rem;
+    border: 1px solid #eeeeee;
+    border-radius: 3px;
+    background: #ffffff;
+}
+
+#onePoint .point_bar {
+    margin-bottom: 0.15rem;
+}
+
+#onePoint .line_chart,
+.bar_chart {
+    width: 5.23rem;
+    height: 100%;
+    float: left;
+    position: relative;
+    min-height: 2.8rem;
+    margin-bottom:0.1rem;
+}
+
+#onePoint .bar_chart {
+    width: 3.12rem;
+}
+
+#onePoint .line_chart_title,
+.bar_chart_title {
+    position: absolute;
+    background: #e6f1fa;
+    border: 1px solid #b6d9f4;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: block;
+    height: 0.3rem;
+    font-size: 0.14rem;
+    left: 0.05rem;
+    top: -0.31rem;
+    line-height: 0.3rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    color: #1d8be7;
+    font-weight: bold;
+}
+
+#onePoint .line_chart_box,
+.bar_chart_box {
+    min-height: 2.8rem;
+}
+
+.bar_chart .add_bar_title {
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    left:0.2rem;
+  /*   transform: translateX(-50%); */
+    top:0.1rem;
+}
+
+.bar_chart .add_bar_title .cycle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #097be1;
+    display: inline-block;
+    margin-right: 5px;
+    color:#292929;
+}
+
+.bar_chart .text_ul{
+width:100%;
+padding-top:0.1rem;
+  }
+
+  .bar_chart .text_ul li{height:0.27rem;line-height:0.27rem;    }
+  .bar_chart .text_ul li span{display:block;float: left;line-height:0.27rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;  }
+  .bar_chart .text_ul li .top{color:#0a78e1;width:0.5rem;margin-left:0.25rem;   }
+  .bar_chart .text_ul li .name{width:0.9rem;}
+  .bar_chart .text_ul li .kind{width:0.8rem;cursor: pointer; }
+  .bar_chart .text_ul li .number{width:0.6rem;  }  
+
+
+/*tooltip样式*/
+.tooltip_wrap{padding:8px 5px; width:200px;/* background:rgb(9,123,225); */ font-size:12px;   } 
+.tooltip_wrap.long{width:260px;  }
+.tooltip_wrap p{overflow: hidden;line-height:21px  }
+.tooltip_left{display: block/* ;width:40px; */;text-align:right;margin-right:5px;float: left;     }
+.group{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;   }
+.tooltip_right{width:100px;display:block;float: left; }
+
+
+
+
+/**
+         * fish-desktop vv3.17.0
+         *
+         * Copyright (c) 2013-present, ZTESoft, Inc.
+         * All rights reserved.
+         *
+         * This source code is licensed under the LGPL-3.0-style license found in the
+         * LICENSE file in the root directory of this source tree. 
+         *
+         */
+         .loadingbar {
+            pointer-events: none;
+            transition: 350ms linear all;
+          }
+          .loadingbar .bar {
+            background: #37e64f;
+            position: fixed;
+            z-index: 10002;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            border-bottom-right-radius: 1px;
+            border-top-right-radius: 1px;
+            transition: width 350ms;
+          }
+          .loadingbar .peg {
+            position: absolute;
+            width: 70px;
+            right: 0;
+            top: 0;
+            height: 3px;
+            opacity: 0.45;
+            filter: alpha(opacity=45);
+            border-radius: 100%;
+            box-shadow: #37e64f 1px 0 6px 1px;
+          }
+/*---全局样式---*/
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,span,input,pre,a,hr,button,select,option,label,address{margin:0;padding:0;border:none;}
+body{background:#fff;color:#000;font-size:12px;font-family: "Microsoft YaHei", "微软雅黑";;}
+address{ font-style:normal; }
+ul,ol{list-style-type:none;}
+img{border:0px;}
+a{text-decoration:none;}
+.clear{clear:both; width:0px; height:0px; overflow:hidden; font-size:0px; line-height:0px; }
+.hidden{ display:none; }
+
+/*---最小高度写法兼容ie678 ff  !important ie6不执行---*/
+.Gzhmin-height {
+	min-height:100px;
+	height:auto !important; 
+	height:100px;
+	overflow:visible;
+}
